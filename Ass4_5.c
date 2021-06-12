@@ -1,3 +1,6 @@
+///To check a perfect number
+
+
 #include<stdio.h>
 int main()
 {
