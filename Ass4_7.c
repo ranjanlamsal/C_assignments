@@ -1,3 +1,5 @@
+///Construct a number pyramid
+
 #include <stdio.h>
 int main() {
    int i, space, rows, k = 0, count = 0, count1 = 0;
