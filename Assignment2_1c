@@ -1,3 +1,5 @@
+"""Convert marks (out of 100) to Grades"""
+
 #include<stdio.h>
 int main ()
 {
