@@ -1,3 +1,5 @@
+///to check if a number is an armstrong number or not
+
 #include<stdio.h>
 #include<math.h>
 int main()
