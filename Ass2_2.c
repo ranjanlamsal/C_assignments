@@ -1,3 +1,12 @@
+
+//     Calculating Tax as of following system
+//     upto 400000 = 1%
+//     +100000 = 10%
+//     +200000 = 20+
+//     +1300000 = 30+
+//     above 2000000 = 36+
+
+
 #include<stdio.h>
 int main()
 {
