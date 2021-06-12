@@ -1,3 +1,5 @@
+//Creating fibonacci sequence
+
 #include<stdio.h>
 int main()
 {
