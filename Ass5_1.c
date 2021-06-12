@@ -1,4 +1,4 @@
-/// strong number
+/// To check a strong number
 
 #include<stdio.h>
 
