@@ -61,7 +61,7 @@ int main ()
 
     switch (cont)
 		{
-			case 'Y':
+			case 'Y': 
 			goto start_again;
 
 			case 'N':
