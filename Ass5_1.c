@@ -1,7 +1,17 @@
-/// To check a strong number
+            
 
 #include<stdio.h>
 
+/** 
+  * 
+  * The factorial function gives factorial of 
+  * any integer 
+  * 
+  * Parameters   : an integer 
+  * 
+  * Return Value : factorial of integer as integer 
+  * 
+  */ 
 int factorial(float n)
 {
     float f;
@@ -12,29 +22,30 @@ int factorial(float n)
         f *= n;
         n -= 1;
     }
-    return f;
+    return f; // f = n * (n-1) * (n-2) * .... (n-(n-2)) * (n-(n-1)
 }
+
+/** 
+  * 
+  * int sum_fact_digit()
+  * It gives the sum of factorial of numbers
+  * 
+  * Parameters   : an integer 
+  * 
+  * Return Value : sum of factorial of digits of number 
+  */
 
 int sum_fact_digit(int number)
 {
     int rem, num;
     float result ;
-
-  /// printf("Enter a number to check if it is an Armstrong number or not: ");
-   /// scanf("%d", &num);
-
     result = 0.0;
     num = number;
     
-    ///for (number = num; number != 0; ++place)
-   /// {
-   ///     number/= 10;
-   /// }
-    
-    for (number = num; number!=0; number /= 10)
-    {
-        rem = number % 10;
-        result += factorial(rem);
+    for (number = num; number!=0; number /= 10) //number = number/10 in every iteration untill number = 0
+    {   
+        rem = number % 10; //rem is the digit of given number
+        result += factorial(rem); // adding the factorial of every digits
     }
 
     return result;
