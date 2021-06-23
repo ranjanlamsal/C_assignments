@@ -34,7 +34,7 @@ void printNumbers(int num)
     else
     {
         printf("%d ",num);
-        printNum(num+1);
+        printNumbers(num+1);
     }
     
 }
@@ -42,6 +42,6 @@ void printNumbers(int num)
 int main()
 {
     int num= 1;
-    printNum(num);
+    printNumbers(num);
     printf("\n");
 }
